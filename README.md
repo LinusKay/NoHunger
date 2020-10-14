@@ -1,4 +1,4 @@
 # shadow-hunger
 A Minecraft Spigot plugin that disables hunger depletion.
 
-Originally created Oct 2019 for 1.13, however still works in newer versions.
+Written specifically for the Shadow Kingdom minecraft network in  Mar, 2019 for Minecraft 1.13, but is still compatible with newer versions.
