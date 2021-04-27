@@ -30,6 +30,8 @@ public class HungerEvent implements Listener {
 
         playerStates = plugin.playerStates;
         playerList = playerStates.getStringList("players");
+
+        if(!player.hasPermission("nohunger.toggle")){ return; };
         if(playerList.contains(playerUUID)){
             event.setFoodLevel(20);
         }
@@ -44,6 +46,7 @@ public class HungerEvent implements Listener {
         playerList = playerStates.getStringList("players");
         config = plugin.config;
 
+        if(!player.hasPermission("nohunger.toggle")){ return; };
         if(Boolean.parseBoolean(config.getString("message_on_join"))){
             if(playerList.contains(playerUUID)){
                 player.sendMessage(ChatColor.translateAlternateColorCodes('&', config.getString("hunger_disabled")));
