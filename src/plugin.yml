@@ -1,0 +1,14 @@
+name: TestPlugin
+version: 1.0
+author: libus
+main: com.libus.testplugin.TestPlugin
+api-version: 1.14
+commands:
+  heal:
+    description: Heals player to max health
+    usage: /heal
+    aliases: [healme, h]
+  feed:
+    description: Feeds player to max saturation
+    usage: /feed
+    aliases: [feedme, f]
