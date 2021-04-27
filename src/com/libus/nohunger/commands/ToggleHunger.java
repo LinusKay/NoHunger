@@ -24,7 +24,7 @@ public class ToggleHunger implements CommandExecutor {
     @Override
     public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args) {
         if(!(sender instanceof Player)){
-            return false;
+            return true;
         }
         Player player = (Player) sender;
         String playerUUID = player.getUniqueId().toString();

@@ -1,7 +1,13 @@
 # NoHunger
 A Minecraft Spigot plugin that disables hunger depletion.
 
-Permissions:
-- nohunger.toggle
+Commands:
+- /togglehunger - Toggle your hunger on/off
 
-Messages can be edited, using standard colour codes, in config.yml
+Permissions:
+- nohunger.toggle - Allows player to toggle their hunger. 
+
+If player has permission to toggle, they will also receive a message displaying their hunger toggle status upon join. This can be disabled in config.yml.
+
+All messages can be edited, using standard minecraft colour codes, in config.yml.
+

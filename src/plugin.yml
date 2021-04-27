@@ -2,8 +2,9 @@ name: NoHunger
 version: 1.0
 author: libus
 main: com.libus.nohunger.NoHunger
+api-version: 1.16
 commands:
   togglehunger:
     description: Toggles hunger loss for user
     usage: /togglehunger
-    aliases: [th, hunger]
+    aliases: [th]

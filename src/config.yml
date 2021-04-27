@@ -1,3 +1,4 @@
+message_on_join: true
 hunger_disabled: "&e&lYour hunger has been disabled!"
 hunger_enabled: "&e&lYour hunger has been enabled!"
 no_permission: "&c&lYou do not have permission {permission}!"
