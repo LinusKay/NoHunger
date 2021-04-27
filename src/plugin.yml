@@ -1,14 +1,9 @@
-name: TestPlugin
+name: NoHunger
 version: 1.0
 author: libus
-main: com.libus.testplugin.TestPlugin
-api-version: 1.14
+main: com.libus.nohunger.NoHunger
 commands:
-  heal:
-    description: Heals player to max health
-    usage: /heal
-    aliases: [healme, h]
-  feed:
-    description: Feeds player to max saturation
-    usage: /feed
-    aliases: [feedme, f]
+  togglehunger:
+    description: Toggles hunger loss for user
+    usage: /togglehunger
+    aliases: [th, hunger]
